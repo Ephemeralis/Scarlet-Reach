@@ -409,9 +409,6 @@
 	else
 		regenerate_organs()
 
-/obj/item/organ
-	parent_type = /obj/item/reagent_containers/food/snacks/rogue/meat // <--- This line makes them cookable like meat. Doesn't affect surgery, if it's possibility is present.
-
 /obj/item/organ/heart
 	fried_type = /obj/item/reagent_containers/food/snacks/rogue/meat/organ/heart/fried
 
